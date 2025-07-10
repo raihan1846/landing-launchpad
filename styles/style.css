@@ -58,8 +58,9 @@
 
 /* header styles  */
 .header{
-    background-image: linear-gradient(rgba(220, 219, 223, 0.6), rgba(220, 219, 223, 0.6)), 
-                      url('../Assets/Hero-bg.png');
+  background-image: linear-gradient(rgba(245, 248, 255, 0.6), rgba(245, 248, 255, 0.6)),
+                  url('../Assets/Hero-bg.png');
+
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -329,4 +330,8 @@ input[type="email"], input[type="text"], textarea{
   font-size: 16px;
   color: #8987A1;
   line-height: 1.6;
+}
+ul ,li, a{
+      text-decoration: none;
+       color: #8987A1;
 }
