@@ -293,3 +293,40 @@ input[type="email"], input[type="text"], textarea{
     color: #000000;
     padding-bottom: 2px;
 }
+
+/* footer section style  */
+.footer-content{
+    width: 100%;
+    height: 430px;
+    background-color: #FFFFFF;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.footer-title{
+    font-weight: bold;
+    font-size: 100px;
+    color: rgba(78, 71, 255, 1);
+}
+.footer-menu ul {
+    list-style: none;
+    margin: 20px 0 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.footer-menu li {
+    font-size: 16px;
+    color: #8987A1;
+    cursor: pointer;
+}
+.footer-description {
+  max-width: 500px;
+  margin: 10px auto;
+  font-size: 16px;
+  color: #8987A1;
+  line-height: 1.6;
+}
