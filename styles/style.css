@@ -93,3 +93,28 @@ nav{
     margin-left: 310px;
 }
 
+/* preview part style  */
+.preview-content{   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 150px  150px ;
+    gap: 100px;
+}
+.preview-action{
+    max-width: 500px;
+}
+.preview-title{
+    font-weight: bold;
+    font-size: 42px;
+    color: #252432;
+    margin-bottom: 23px;
+}
+.preview-description{
+    font-size: 24px;
+    color: #252432;
+    margin-bottom: 23px;
+}
+.preview-image img{
+    border-radius: 20%;
+}
