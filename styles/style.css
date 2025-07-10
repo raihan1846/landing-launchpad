@@ -118,3 +118,35 @@ nav{
 .preview-image img{
     border-radius: 20%;
 }
+
+/* join user section style  */
+.join-user{
+    width: 1140px;
+    height: 306px;
+    background-color: rgba(78, 71, 255, 0.1);
+    margin: 150px auto;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.join-user-title{
+    font-weight: bold;
+    font-size: 38px;
+    color: #252432;
+    margin-bottom: 40px;
+}
+.join-user-items{
+    display: flex;
+    justify-content: space-evenly;
+}
+.user-item-title{
+    font-weight: bold;
+    font-size: 80px;
+    color: rgba(78, 71, 255, 1);
+}
+.join-user-description{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
