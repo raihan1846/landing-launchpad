@@ -35,19 +35,26 @@
   transform: scale(1.05);
   box-shadow: 0 8px 20px rgba(78, 71, 255, 0.4);
 }
-/* shared styles  */
-/* 
-
-input[type="email"], input[type="text"], textarea{
-    height: 64px;
-    border-radius: 5px;
-    background-color: white;
-    display: block;
+.btn-success-full{
     width: 100%;
-    padding: 10px 20px;
-    margin-bottom: 24px;
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    padding: 16px 26px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16px;
     border: none;
-} */
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-success-full:hover {
+  background-color: #bfca21;
+  color: black;
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(78, 71, 255, 0.4);
+}
+/* shared styles  */
 
 /* header styles  */
 .header{
@@ -247,4 +254,42 @@ nav{
     width: 840px;
     height: 364px;
     border-radius: 5%;
+}
+/* get in touch section style  */
+input[type="email"], input[type="text"], textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
+.get-in-touch{
+    width: 1140px;
+    height: 632px;
+    margin: 0 auto;
+}
+.get-in-touch-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.get-in-touch-one{
+    width: 550px;
+}
+.get-in-touch-title{
+    font-weight: bold;
+    font-size: 97px;
+    color: #000000;
+}
+.git-in-touch-form{
+    width: 500px;
+}
+.label-input-field{
+    font-weight: 600;
+    font-size: 18px;
+    color: #000000;
+    padding-bottom: 2px;
 }
